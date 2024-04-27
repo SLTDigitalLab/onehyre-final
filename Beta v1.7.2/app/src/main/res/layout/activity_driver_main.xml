@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background2"
+tools:context=".DriverMainActivity">
+
+
+    <ImageView
+        android:id="@+id/trip_details"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/settings_btn"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+    <ImageView
+        android:id="@+id/tripHistory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/settings_btn"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ic_baseline_list_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/stop_button3"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="60dp"
+
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/stop_button"
+        android:backgroundTint="@color/buttons"
+        android:text="stop"
+        android:textAllCaps="true"
+        android:textColor="@color/white_lace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/p_pause"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+
+        android:background="@drawable/resume_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/ic_baseline_pause_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/p_start"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/resume_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/ic_baseline_arrow_right_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/stopbtn"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+
+        android:background="@drawable/resume_button"
+        android:isScrollContainer="true"
+        android:text="@string/button_text_stop"
+        android:textAllCaps="true"
+        android:textColor="#121111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/total_fare"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="131dp"
+        android:layout_height="39dp"
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/distance"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/hire_time"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <TextView
+        android:id="@+id/feetxt"
+        android:layout_width="236dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="83dp"
+        android:text="Rs.0.0"
+        android:textAlignment="center"
+        android:textColor="#E60808"
+        android:textColorHint="#CCB6B6"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/distancetxt"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:text="0.000"
+        android:textAlignment="center"
+        android:textColor="#08E61E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Chronometer
+
+        android:id="@+id/chrono_hire_time"
+        android:layout_width="180dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColor="#08E61E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <TextView
+        android:id="@+id/speedtxt"
+        android:layout_width="155dp"
+        android:layout_height="53dp"
+
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#08E61E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/speed"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/waiting_fee"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <Chronometer
+        android:id="@+id/chrono_wait_time"
+        android:layout_width="176dp"
+        android:layout_height="55dp"
+
+        android:textAlignment="center"
+        android:textColor="#08E61E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_update"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button_desgin"
+        android:text="@string/button_text_start"
+        android:textAllCaps="true"
+        android:textColor="@color/white_lace"
+        android:backgroundTint="@color/buttons"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <ToggleButton
+        android:id="@+id/btnToggleForceOffline"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textOn="Offline"
+        android:textOff="Online"
+        android:background="#08E61E"
+        app:layout_constraintEnd_toStartOf="@+id/trip_details"
+        app:layout_constraintStart_toEndOf="@+id/tripHistory"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+{
+  "project_info": {
+    "project_number": "871950494179",
+    "firebase_url": "https://firetripdetails-default-rtdb.firebaseio.com",
+    "project_id": "firetripdetails",
+    "storage_bucket": "firetripdetails.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871950494179:android:7ad5f6f83e86a1012058d6",
+        "android_client_info": {
+          "package_name": "com.techtop.distancetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871950494179-0bu0vp7ic6co5v135vntjgcl0ahpiddh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "88871c07652427d591cd54bb94416cce4f74cf68"
+          }
+        },
+        {
+          "client_id": "871950494179-9delckoq1bgvsr498hakdcfi2gn2fpu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "b6c17fa2dc702dbaa1c14990fe59fdfa386c0e4d"
+          }
+        },
+        {
+          "client_id": "871950494179-a4bi6h88td17jlun8fn2drnh8q77uca3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "eea9e0b526d3be84120d685a16e979257f0bd598"
+          }
+        },
+        {
+          "client_id": "871950494179-bbkh1p15aaq8mi6anabbl0ku4l2s4lkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "2d19ab238a446cebc92b97d0221c1dfd390e1d77"
+          }
+        },
+        {
+          "client_id": "871950494179-gmelnghe33jhrcbde3tq0jps9hkq7okp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "35cb9cd6c4de7810c7a80c157d660f857ed59421"
+          }
+        },
+        {
+          "client_id": "871950494179-gsliqqc5dq51alm4ltbrue6db5t30vo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "871950494179-io332s1cpddqfjvjhkpgk3h5k51rg1qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "772c3089caf47252547e3d21d5261132c529b94e"
+          }
+        },
+        {
+          "client_id": "871950494179-k45sai2dcdup72n93q840482u61iovol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "a1af5f05e9cb54cd5fabc98497f9aa3b50dbe286"
+          }
+        },
+        {
+          "client_id": "871950494179-lajogppo42vunrmo5gjmsdhj1rc3207g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "648cfd2cbbd6f068a8bbd4e8f00716b35cfe8df6"
+          }
+        },
+        {
+          "client_id": "871950494179-lmfe1o2u9sefqo3tu9q68s7kenkff4q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.distancetry",
+            "certificate_hash": "0bd1ca55f828f8488f9c150a0dcdeb8dc20983fb"
+          }
+        },
+        {
+          "client_id": "871950494179-5nsafagcmi15b3c1if7d6rng0tahasll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1k5fIB1Xh90Nz4cFa73DBul5MhnAflQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871950494179-0e5656lghhv0kns13a2hh1veh00g8lcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871950494179:android:fe279e67ee0e99f12058d6",
+        "android_client_info": {
+          "package_name": "com.techtop.onehyreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871950494179-d316a6rqp9i0i591b1mnfguipqu5enru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techtop.onehyreapp",
+            "certificate_hash": "648cfd2cbbd6f068a8bbd4e8f00716b35cfe8df6"
+          }
+        },
+        {
+          "client_id": "871950494179-5nsafagcmi15b3c1if7d6rng0tahasll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-1k5fIB1Xh90Nz4cFa73DBul5MhnAflQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871950494179-0e5656lghhv0kns13a2hh1veh00g8lcg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

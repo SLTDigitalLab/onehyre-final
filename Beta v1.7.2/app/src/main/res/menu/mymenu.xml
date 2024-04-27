@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Hire History"
+        android:id="@+id/hire_history_itm" />
+
+    <item android:title="Change Hire Rates"
+        android:id="@+id/change_hire_details_itm"/>
+
+    <item android:title="Driver Profile"
+        android:id="@+id/driver_details_itm"/>
+
+    <item android:title="Activate Premium"
+        android:id="@+id/premium_button"
+        android:visible="true"
+        android:icon="@drawable/ic_premium_v"/>
+
+    <item android:title="Settings"
+        android:id="@+id/settings_button"
+        android:visible="true"/>
+
+    <item android:title="Logout"
+        android:id="@+id/driver_logout"/>
+
+    <item
+        android:title="Technical Support"
+        android:id="@+id/action_support"
+        android:icon="@drawable/ic_customer_service64"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterNewUserActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:background="@color/background2">
+
+    <!-- Top Title Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/topTitleCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="30dp"
+        app:cardCornerRadius="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/topTitleContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@color/highlight"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtTopTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/cutstom_textview_rounded_corners"
+                android:backgroundTint="@color/highlight"
+                android:gravity="center_vertical"
+                android:text="@string/register_title"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/texts"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- Enterprise Info Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/enterpriseInfoCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/silver"
+        android:layout_marginTop="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topTitleCard">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/enterpriseContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@color/highlight"
+            android:padding="16dp">
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/groupEnterpriseInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="btnSubmitCode, editTextEnterpriseCode, collEnterpriseName, textViewExpandEnterpriseTitle" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/groupEnterpriseFound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="ePFoundEntNameTitle, ePFoundEntEmail, ePFoundEntPhone, epFoundContinueButton" />
+
+            <ImageView
+                android:id="@+id/imgViewEnterpriseFound"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_ok_green_tick96"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/ePFoundEntNameTitle"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="@string/enterprise_found_name"
+                android:textColor="@color/graphite_grey"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ePFoundEntEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:text="@string/enterprise_found_email"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ePFoundEntNameTitle" />
+
+            <TextView
+                android:id="@+id/ePFoundEntPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="@string/enterprise_found_phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ePFoundEntEmail" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/epFoundContinueButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/transparent_button_design"
+                android:text="@string/button_text_continue"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ePFoundEntPhone"
+                />
+
+
+            <TextView
+                android:id="@+id/txtEnterpriseTitle"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cutstom_textview_rounded_corners"
+                android:backgroundTint="@color/highlight"
+                android:gravity="center_vertical"
+                android:text="@string/enterprise_title"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/texts"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/expandGuideTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/enterprise_join_guide"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtEnterpriseTitle" />
+
+            <!-- Expanding Items -->
+            <TextView
+                android:id="@+id/textViewExpandEnterpriseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join with an Enterprise"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/collEnterpriseName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insert Enterprise code"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/graphite_grey"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewExpandEnterpriseTitle"
+                app:layout_constraintVertical_bias="0.3" />
+
+            <EditText
+                android:id="@+id/editTextEnterpriseCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/collEnterpriseName"
+                app:layout_constraintVertical_bias="0.15" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmitCode"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/transparent_button_design"
+                android:text="Submit and Continue"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextEnterpriseCode" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <!-- Personal Info Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personalInfoCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:elevation="30dp"
+        app:cardCornerRadius="28dp"
+        android:animateLayoutChanges="true"
+        android:background="@color/silver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterpriseInfoCard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginTop="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:animateLayoutChanges="true"
+            android:background="@color/highlight"
+            android:elevation="10dp"
+            android:padding="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enterpriseInfoCard">
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/groupPersonalInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:constraint_referenced_ids="textViewDName, editTextDriverName, textViewDNic, editTextNic, textViewDPhone, textViewDriverPhone, textViewVType, spinnerVType, textViewVModel, spinnerVModel, textViewVNumber, editTextVNumberLetters, editTextVNumberDigits, btnSignUp" />
+
+            <!-- Collapsing Items -->
+            <TextView
+                android:id="@+id/txtViewDriverInfoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cutstom_textview_rounded_corners"
+                android:backgroundTint="@color/highlight"
+                android:gravity="center_vertical"
+                android:text="@string/driver_info_title"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/graphite_grey"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="RtlCompat" />
+
+
+            <!-- Driver's Name -->
+            <TextView
+                android:id="@+id/textViewDName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driver_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextDriverName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your full name here"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDName" />
+
+
+            <!-- Driver's NIC Number -->
+            <TextView
+                android:id="@+id/textViewDNic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/nic_number"
+                android:textAlignment="textStart"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDriverName" />
+
+            <EditText
+                android:id="@+id/editTextNic"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your National Identity Card number here"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDNic" />
+
+
+            <!-- Driver's Phone Number -->
+            <TextView
+                android:id="@+id/textViewDPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/driver_phone"
+                android:textAlignment="textStart"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNic" />
+
+            <TextView
+                android:id="@+id/textViewDriverPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="+947XXXXXXXX"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDPhone" />
+
+
+            <!-- Select Vehicle Type -->
+            <TextView
+                android:id="@+id/textViewVType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/vehicle_type"
+                android:textAlignment="textStart"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDriverPhone" />
+
+            <Spinner
+                android:id="@+id/spinnerVType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                app:layout_constraintEnd_toStartOf="@+id/textViewVModel"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewVType"
+                app:layout_constraintTop_toBottomOf="@+id/textViewVType" />
+
+
+            <!-- Select Vehicle Model -->
+            <TextView
+                android:id="@+id/textViewVModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/vehicle_model"
+                android:textAlignment="textStart"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textViewVType"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDriverPhone" />
+
+            <Spinner
+                android:id="@+id/spinnerVModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewVModel"
+                app:layout_constraintTop_toBottomOf="@+id/textViewVModel" />
+
+
+            <!-- Vehicle Number -->
+            <TextView
+                android:id="@+id/textViewVNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/vehicle_registration"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerVType" />
+
+            <EditText
+                android:id="@+id/editTextVNumberLetters"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+                android:hint="AAA"
+                android:maxLength="3"
+                android:textAlignment="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewVNumber" />
+
+            <EditText
+                android:id="@+id/editTextVNumberDigits"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:digits="0123456789"
+                android:hint="1234"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="@+id/textViewVNumber"
+                app:layout_constraintStart_toEndOf="@+id/editTextVNumberLetters"
+                app:layout_constraintTop_toBottomOf="@+id/textViewVNumber" />
+
+
+            <!-- Sign Up Button -->
+
+            <TextView
+                android:id="@+id/textViewpayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="100dp"
+                android:text="pay platform charges"
+                android:textColor="@color/texts"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerVType" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="Pay via GooglePlay"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewpayment"
+                app:layout_constraintVertical_bias="0.165" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_desgin"
+                android:backgroundTint="@color/buttons"
+                android:text="@string/button_text_sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/white_lace"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextVNumberDigits"
+                app:layout_constraintVertical_bias="0.939" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

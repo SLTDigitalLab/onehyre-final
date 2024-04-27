@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- தொடர் அமைப்பு -->
+    <string name="day_time">நாள் நேரம் (6மணி முதல் 9மணி வரை)</string>
+    <string name="night_time">இரவு நேரம் (9மணி முதல் 6மணி வரை)</string>
+    <string name="starting_fee">தொடக்க கட்டணம்: </string>
+    <string name="two_km">2 கிமீட்டர் இலக்கு: </string>
+    <string name="waiting_fee">காத்திருப்பது கடந்த நிமிடம் வரை: </string>
+    <string name="update">புதுப்பித்தல்</string>
+    <string name="last_updated">கடைசி புதுப்பித்தல் நேரம்: </string>
+    <string name="your_vehicle_type">உங்கள் வாகன வகை: </string>
+
+
+    <!-- வரவேற்கின்ற செயல்பாடு -->
+    <string name="welcome_message">வரவேற்கின்றோம்</string>
+    <string name="lets_get_started">ஆரம்பிக்கலாம்</string>
+    <string name="start_button_text">ஆரம்பிக்க</string>
+
+
+    <!-- வானவிடம் முதல் செயல்பாடு -->
+    <string name="total_fare">மொத்த கட்டணம் (ரூ)</string>
+    <string name="distance">வளரும் தொகுதி (கிமீட்டர்)</string>
+    <string name="hire_time">வாடிக்கை நேரம்</string>
+    <string name="speed">வேகம் (கிமீ/மணி)</string>
+    <string name="waiting_time">காத்திருப்பது நேரம்</string>
+
+
+    <!-- சந்தா செயல்பாடு -->
+    <string name="premium_features">பிரீமியம் அம்சங்கள்</string>
+    <string name="unlock_client_email">* வாடிக்கையாளர் மின்னஞ்சல் அனைத்தும் விட்டுவிடுகின்றது.</string>
+    <string name="remove_ads">* விளம்பரங்களை அகற்று</string>
+    <string name="cancel_anytime">* எந்த நேரத்திலும் ரத்து செய்</string>
+    <string name="price_subscription">$0.99</string>
+    <string name="subscription_status">நிலை</string>
+    <string name="subscription_description">உங்கள் GooglePlay கணக்கில் வாடிக்கையாளருக்கு உடன் ரூ. 0.99 செலுத்தப்படும். உங்கள் சந்தா Google Play Store-ன் \'கட்டண மற்றும் சந்தா\' பக்கத்தில் நிர்வகிக்கப்படலாம் மற்றும் விருப்பம் அந்த பிரிவை முடக்கவில்லையாக முடியும் 24 மணி நேரம் கட்டண பருவத்தின் முடிவுக்கு 24 மணி நேரம் முன்பு முடிக்கப்படும்.</string>
+    <string name="buy">வாங்க</string>
+
+
+    <!-- பிரீமியம் செயல்பாடு செயல்பாடு -->
+    <string name="premium_note">
+    என் டாக்சி, பருவம் முழுவது $20 க்கு மட்டுமே ஒரு மின் வாகன அமைப்பு மொபைல் பயன்பாட்டின் தசா திட்டம் அறிமுகம் செய்யும். இந்த திட்டத்தில்,
+    உங்களுக்கு உயர்த்தப்பட்ட அம்சங்களை அனுமதிக்கின்றது, விண்ணப்ப ரசீதுகளை மின்னஞ்சல் மற்றும் SMS வழியாக வாங்குவது. இது ஒரு சேமிப்பு அனுபவம் மற்றும் எளிதாக பதிவுகளை வாக்கியமாக கொண்டுவர அனுமதிக்கின்றது.
+    உங்கள் டாக்சி வணிகத்தை உயர்த்த, இப்போது என் டாக்சி பருவத்தை பதிவு செய்யவும்.
+    </string>
+    <string name="activate_premium">பிரீமியம் செயல்படுத்து</string>
+
+    <!-- புதிய பயனர் பதிவு செயல்பாடு -->
+    <!-- மேல் தலை அட்டை -->
+    <string name="register_title">பதிவு செய்</string>
+    <!-- உங்கள் உத்தியோக தகவல் அட்டை -->
+    <string name="enterprise_title">உத்தியோகம்</string>
+    <string name="enterprise_join_guide">உங்கள் உத்தியோகத்தில் சேர இங்கே தட்டவும்</string>
+    <string name="enterprise_found_name">உங்கள் உத்தியோக பெயர்</string>
+    <string name="enterprise_found_email">உங்கள் உத்தியோக மின்னஞ்சல்: இது ஒரு மாதிரி மின்னஞ்சல்@abc.com</string>
+    <string name="enterprise_found_phone">உங்கள் உத்தியோக தொலைபேசி: 0472261455</string>
+    <string name="enterprise_continue">தொடருங்கள்</string>
+    <!-- தனிப்பயனர் தகவல் அட்டை -->
+    <string name="driver_info_title">வாகனக் காப்புரிமை தகவல்</string>
+    <string name="driver_name">வாகனக் காப்புரிமையாளரின் பெயர்</string>
+    <string name="nic_number">வாகனக் காப்புரிமையாளரின் படிவம் (NIC) எண்</string>
+    <string name="driver_phone">வாகனக் காப்புரிமையாளரின் தொலைபேசி எண்</string>
+    <string name="vehicle_type">வாகன வகை</string>
+    <string name="vehicle_model">வாகன மாதிரி</string>
+    <string name="vehicle_registration">வாகன பதிவு எண்</string>
+    <string name="sign_up">பதிவு செய்க</string>
+
+
+    <!-- வாகனக் காப்புரிமை தகவல் அட்டை தேர்ந்தெடுக்க செயல்பாடு -->
+    <string name="select_your_course">உங்கள் தொகுப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="select_course_card_expand">தொகுப்பைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="individual">தனிப்பயனாளர்</string>
+    <string name="more_information">மேலும் தகவல்</string>
+    <string name="less_information">குறைந்த தகவல்</string>
+    <string name="individual_description">தனிப்பயனாளர்கள் தனிப்பயனாளர்கள் மட்டும், அவர்கள் சொந்த அநேகராக வேலை செய்யும்
+    மற்றும் எந்த குழு, நிறுவனம், அல்லது உத்தியோகத்துடன் இணைந்த அல்லது இணைந்திருக்காது.
+    நீங்கள் ஒரு தனிப்பயனாளர் அல்லது பணியாளராக பதிவு செய்ய விரும்பினால்,
+    இந்த விருப்பத்தைத் தேர்வு செய்து ஒரு தனிப்பயனாளர் பணியாளராக பதிவு செய்யுங்கள்.</string>
+    <string name="enterprise">உத்தியோகம்</string>
+    <string name="enterprise_description">உத்தியோகம் குழுக்களுக்கு பதிவிடப்பட்ட பணியாளர்களுக்கான உத்தியோகம்,
+    குழுக்களுடன் வேலை செய்யும் மற்றும் நிறுவனங்களுடன் இணைந்திருக்கும்.
+    நீங்கள் ஒரு நிறுவனத்துடன் இணைந்திருந்து வேலை செய்கின்றீர்கள் என்றால்,
+    இந்த விருப்பத்தைத் தேர்வு செய்து ஒரு உத்தியோகம் பணியாளராக பதிவு செய்யுங்கள்.</string>
+
+
+    <!-- பயண விவரங்கள் செயல்பாடு -->
+    <string name="loading_text">ஏற்றுகிறது..</string>
+
+    <!-- பயண விவரங்கள் அதிசய வகை -->
+    <string name="customer_name">வாடிக்கையாளரின் பெயர்:</string>
+    <string name="customer_email">வாடிக்கையாளர் மின்னஞ்சல்:</string>
+    <string name="customer_phone">வாடிக்கையாளர் தொலைபேசி:</string>
+    <string name="fare">கட்டணம்:</string>
+    <string name="waiting_time_trip_details">காத்திருப்பது நேரம்:</string>
+    <string name="hire_time_trip_details">வாடிக்கை நேரம்:</string>
+    <string name="distance_trip_details">நடப்பு:</string>
+    <string name="one_km_fee">ஒரு கிமீட்டர் கட்டணம்:</string>
+    <string name="two_km_fee">இரண்டு கிமீட்டர் கட்டணம்:</string>
+    <string name="waiting_fee_trip_details">காத்திருப்பது கட்டணம்:</string>
+    <string name="start_time">தொடக்க நேரம்:</string>
+    <string name="end_time">முடிவு நேரம்:</string>
+    <string name="vehicle_number">வாகன எண்:</string>
+    <string name="date">தேதி:</string>
+
+    <!-- வெளியேறு செயல்பாடு -->
+    <string name="logout_prompt">நீங்கள் வெளியேற உறுதியாக விரும்புகின்றீர்களா?</string>
+    <string name="phone_number">தொலைபேசி எண்</string>
+    <string name="cont_to_logout">வெளியேறு</string>
+    <string name="go_back">பின்பாக்கு</string>
+
+
+    <!-- விதிமுறைகளும் செயல்பாடுகளும் -->
+    <string name="terms_and_conditions_agreement">
+    <![CDATA["<h1>SLT My Taxi Meter - விதிமுறைகளும் செயல்பாடுகளும்</h1>\n" +
+    "\n" +
+    "<h2>1. விதிமுறைகள் ஏற்றுக்கொள்ளல்</h2>\n" +
+    "<p>SLT My Taxi Meter பயன்பாட்டிற்கு அணுகவும் அல்லது அதனை பயன்படுத்துவதன் மூலம் (&ldquo;பயன்பாடு&rdquo;), நீங்கள் இந்த விதிமுறைகளுடன் பிரதிபந்திக்கப்படுகின்றீர்கள் (&ldquo;விதிமுறைகள்&rdquo;). இந்த விதிமுறைகளுடன் உங்கள் ஒப்புக்கொள்கின்ற இல்லையாதவையானால், பயன்பாடுக்கு தவிர்க்கவும்.</p>\n" +
+    "\n" +
+    "<h2>2. பயன்பாடு மற்றும் அம்சங்கள்</h2>\n" +
+    "<ul>\n" +
+    "  <li>இந்த பயன்பாடு டாக்சி வாகனவாளர்களுக்கு வாடகை விவரங்களை கண்காணிக்க, செயல்படுகின்ற வாடகைகளை கண்காணிக்க, வாடிக்கையாளர்க்கு இடம் புதுப்பிக்க உதவும்.</li>\n" +
+    "  <li>பயன்பாடு திறக்குதிகொண்ட போது மட்டும் இருப்பிடம் கண்காணிக்கப்படுகின்றது. இருப்பிடம் வரலாற்றிடம் சேமிக்கப்படுகின்றதில்லை, வாடகைகள் நடைமுழுவது வாகனவாளர் அடிகட்டான பாதையில் எடுக்கப்படும் போது மட்டும்.</li>\n" +
+    "  <li>வாகனவாளர்கள் &ldquo;தொடக்க&rdquo; பொத்தான்கையை அழுத்தி வாடகைகளை ஆரம்பிக்க முடியும், மற்றும் வாடகைகளின் போது அடிகட்டப்பட்ட முழு பாதையில் நடைமுழுவது மாறுபடிக்களும்.</li>\n" +
+    "  <li>வாகனவாளர்கள் தவறான அல்லாத அனுமதிகள் அல்லது அனப்படுத்தல்களில் ஈடுபடும் போது கணக்கை நீக்கலாம்.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>3. கணக்கு பதிவு மற்றும் பாடம் தேர்ந்தெடுக்கல்</h2>\n
+    "<ul>\n" +
+    "  <li>வாகனவாளர்கள் பயன்பாட்டை அனுமதிப்படுத்த ஒரு கணக்கை பதிவு செய்ய வேண்டும். பதிவுசெய்தும், அவர்கள் &ldquo;தனிப்பட்ட&rdquo; அல்லது &ldquo;நிறுவன&rdquo; பாடங்கள் முடியும், மற்றும் இந்த வாரிசு அது இறுதியாகும்.</li>\n" +
+    "  <li>நிறுவன வாகனவாளர்கள் நிறுவனம் வழங்கிய நிறுவன குறியீட்டை வாகனவாளராக பதிவு செய்ய வேண்டும்.</li>\n" +
+    "  <li>பதிவு செய்த பிறகு பாடங்களை மாற்றுவது அனுமதிக்கப்படாது.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>4. வாடகை கட்டணங்கள்</h2>\n" +
+    "<ul>\" +
+    "\n" +
+    "  <li>வாடகை மதிப்புகள், இடம்பாடப்பட்ட கட்டணங்கள் மற்றும் பயன்பாட்டை அமைத்துக் கொள்ளப்பட்டுள்ளது, மற்றும் வாகனவாளர்கள் அவைகளை மாற்ற முடியாது.</li>\n" +
+    "  <li>வாகன வகை வாகனவாளர்கள் வாகனங்களை பயன்படுத்த முடியும்.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>5. பிரீமியம் சந்தா மற்றும் ரத்தருக்கல்</h2>\n" +
+    "<ul>\n" +
+    "<li>பிரீமியம் சந்தா மேம்படுத்தப்பட்ட அம்சங்களை வழங்குகின்றது மற்றும் எந்த நேரத்திலும் ரத்தருக்கலாம்.</li>\n" +
+    "</ul>\n" +
+    "\n"  +
+    "<h2>6. தரவு பகிர்ந்துகொள்வது</h2>\n" +
+    "<ul>\n" +
+    "  <li>வாகனவாளர்கள் வாகன விவரங்களை வாடிக்கையாளர்களுக்கு அவர்கள் தொடர்பு கொள்ளும் என்று அவர்கள் மொபைல் எண் அல்லது மின்னஞ்சல் உள்ளிடலாம்.</li>\n" +
+    "  <li>இந்த சேவை பிரீமியம் உடன் அல்லது நிறுவன உடன் உள்ள உடன்படியாக உள்ளது.</li>\n" +
+    </ul>\n" +
+    "\n" +
+    "<h2>7. மூன்றாம் தரப்பு நிறுவனம்</h2>\n" +
+    "<ul>\n" +
+    "<li>பயன்பாடு, வாகனவாளர்களை அணுக்குவதற்கு மூன்றாம் தரப்பு நிறுவனம் அமைக்கின்றது.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>8. புதியதாக உரிமை</h2>\n" +
+    "<ul>\n" +
+    "<li>வானிப்பெயர்ச்சி மொழி உரிமைகள் மற்றும் அதன் உள்ளடக்கம் அனைத்து உரிமைகளும் SLT My Taxi Meter உடன் உள்ளிடப்பட்டுள்ளன.</li>\n" +
+    "</ul>\n"  +
+    "\n" +
+    "<h2>9. கட்டண விளக்கம் குறித்து வர்த்தகம்</h2>\n" +
+    "<ul>\n" +
+    "  <li>பயன்பாடு &ldquo;அதே போன்றது&rdquo; என்று வழங்கப்படுகின்றது, மற்றும் SLT My Taxi Meter அதன் பயன்பாட்டை பயன்படுத்தும் விபரங்களிலிருந்து உடன்பட்ட வர்த்தகங்கள் அல்லது பயன்பாட்டில் உள்ள வர்த்தகங்களுக்கு எந்த உத்தமமும் அல்லது கட்டணங்களுக்கு குறியீட்டை வழங்காது.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>10. முடுக்கம்</h2>\n" +
+    "<ul>\n" +
+    "  <li>SLT My Taxi Meter இந்த விதிகளை உல்லாசம் செய்யலாம், மீண்டும் பயன்படுத்தும் விரும்பும் உடன் அப்படியே ஒப்புக்கொள்கின்றது.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>11. மாற்றங்கள்</h2>\n" +
+    "<ul>\n" +
+    "  <li>SLT My Taxi Meter இந்த விதிகளை எப்போதும் புதுப்பிக்கலாம், மற்றும் பயன்பாட்டின் தொடக்க வர்த்தகம் அனுமதிக்குகின்றது.</li>\n" +
+    "</ul>\n" +
+    "\n" +
+    "<h2>12. தலைமை செயல்திட்டம்</h2>\n" +
+    "<ul>\n" +
+    " <li>இந்த விதிகளை செயல்படுத்த வானிப்பெயர்ச்சி SLT My Taxi Meter க்கு அனுமதி உண்டு.</li>\n" +
+    "</ul>"]]>
+
+    </string>
+
+    <!-- முதல் செயல்பாடு -->
+    <string name="phone_number_for_verification_sign_up">தொலைபேசி எண்</string>
+    <string name="agree_to_terms_and_conditions_note">பதிவு செய்ததன் மூலம் நீங்கள் எங்கள் விதிமுறைகளுடன் ஒப்புக்கொள்கின்றீர்கள்</string>
+    <string name="resend_code_ign_up">குறியீட்டைப் பெறவில்லையா? மீண்டும் அனுப்பு</string>
+    <string name="verify_phone_sign_up">சரிபார்</string>
+    <string name="enter_otp">OTP உள்ளிடவும்</string>
+
+    <!-- பதிவு செய்த கணக்குகளை மீட்டெடுக்கின்ற செயல்பாடு -->
+    <string name="account_found">கணக்கு கண்டறிந்தது!</string>
+    <string name="account_found_note">நீங்கள் உள்நிலையாக உள்ள தொலைபேசி எண்ணுடன் பதிவு செய்த ஒரு கணக்கு கண்டறிந்தோம்!</string>
+    <string name="display_driver_name">பெயர்</string>
+    <string name="display_vehicle_number">வாகன எண்</string>
+    <string name="display_phone">தொலைபேசி எண்</string>
+    <string name="continue_to_signIn">தொடருக</string>
+
+    <!-- பதிவு செய்த கணக்குகளை செருகிற செயல்பாடு -->
+    <string name="title_des">தொடர, \nஅது நீங்கள் என்னால் உள்ளதாக்க பதிவிறக்குக! </string>
+    <string name="enter_otp_to_sign_in">OTP உள்ளிடவும்</string>
+    <string name="resend_otp_note">குறியீட்டைப் பெறவில்லையா?</string>
+    <string name="resend_otp_sign_in">மீண்டும் அனுப்பு</string>
+    <string name="verify_phone_sign_in">சரிபார்</string>
+
+    <!-- செய்திகள் பெட்டிகள் -->
+    <string name="call_warning_title">SLT MY TAXI மீட்டர் ஒரு வெளியிடுகை கூட்டு அழைப்பை செய்யும்.</string>
+    <string name="call_warning_message">இது உங்கள் மொபைல் கணக்கில் கட்டணங்களை உருவாக்கலாம். நீங்கள் தொழில்நுட்ப ஆதரணைக்கு அழைய உத்தமம் என்று உறுதியாக விரும்புகின்றீர்களா?</string>
+    <string name="trip_bill_already_saved">நீங்கள் இதன் விவரங்களை ஏற்றுக்கொள்ளுகின்றீர்கள் மற்றும் மீண்டும் சேமிக்க முடியாது.</string>
+    <string name="trip_bill_not_saved">நீங்கள் தற்போதைய பயணத்தின் விவரங்களை சேமிக்கவில்லை. நீங்கள் பின்னர் பின்னர் செல்லும் போது இந்த பயணத்தின் விவரங்கள் போக்கப்படும் மற்றும் நாம் அவைக்குத் திரும்ப உதவ முடியாது. உறுதி ஆக்குகின்றீர்களா?</string>
+
+    <!-- அனுமதிகள் விதிகள் -->
+    <string name="location_permission">இந்த பயன்பாட்டு சரியாக செயல்பட இடையேயாக இடம்பெறும் அனுமதிகள் தேவை. இந்த அனுமதியை அனுமதிக்க அநுமதிகளை அமைக்க செட்டிங்க்கு போகவும்.</string>
+    <string name="call_permission">இந்த பயன்பாட்டு இந்த நடவடிக்கையை செயல்படுத்த கூடுதல் அனுமதிகள் தேவை. இந்த அனுமதியை அனுமதிக்க அனுமதிகளை அமைக்க செ</string>
+    <string name="manuel_permission_title">Goto Settings</string>
+    <string name="dialog_box_negative_button">cancel</string>
+    <string name="dialog_box_positive_button">OK</string>
+
+    <!-- Settings Activity -->
+    <string name="app_settings_contact_us">எங்களை தொடர்க</string>
+    <string name="change_app_language">மொழியை மாற்று</string>
+    <string name="version_info">பதிப்பு தகவல்</string>
+    <string name="app_settings_logout">வெளியேறு</string>
+
+    <!-- Driver Profile -->
+    <string name="personal_info_driver_profile">தனிப்பட்ட விபரம்</string>
+    <string name="enterprise_info_driver_profile">உள்ளடக்க தகவல்</string>
+    <string name="edit_info_driver_profile">தகவல் திருத்தம்</string>
+
+    <!-- Driver Profile - personal info tab -->
+    <string name="mobile_text">அலைபேசி</string>
+    <string name="nic_number_text">ஐ.டி. எண்</string>
+    <string name="vehicle_number_text">வாகன எண்</string>
+    <string name="vehicle_category_text">வாகன வகை</string>
+    <string name="vehicle_model_text">வாகன மாதிரி</string>
+
+    <!-- Driver Profile - enterprise info tab -->
+    <string name="enterprise_name_text">உள்நாட்டு பெயர்</string>
+    <string name="enterprise_code_text">உள்நாட்டு குறியீடு</string>
+    <string name="email_text">மின்னஞ்சல்</string>
+    <string name="hotline_text">ஹாட்லைன்</string>
+
+    <!-- Logout Activity -->
+    <string name="logout_confirmation">நிச்சயமாக வெளியேற விரும்புகிறீர்களா?</string>
+
+    <!-- Buttons -->
+    <string name="button_text_update">புதுப்பிக்கவும்</string>
+    <string name="button_text_continue">தொடர்க</string>
+    <string name="button_text_cancel">ரத்து செய்</string>
+    <string name="button_text_delete">நீக்கு</string>
+    <string name="button_text_log_out">வெளியேறு</string>
+    <string name="button_text_save">சேமிக்க</string>
+    <string name="button_text_submit">சமர்ப்பிக்க</string>
+    <string name="button_text_start">ஆரம்பிக்க</string>
+    <string name="button_text_stop">நிறுத்து</string>
+    <string name="button_text_register">பதிவு செய்</string>
+    <string name="button_text_log_in">உள் நுழைக</string>
+    <string name="button_text_sign_up">பதிவு செய்</string>
+    <string name="button_text_verify">சரிபார்</string>
+    <string name="button_text_confirm">உறுதிப்படுத்து</string>
+    <string name="button_text_back">மீண்டும்</string>
+
+</resources>

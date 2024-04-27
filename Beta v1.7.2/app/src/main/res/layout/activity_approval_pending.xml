@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApprovalPendingActivity"
+    android:background="@color/background2"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pendingDesCard"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:elevation="30dp"
+        app:cardCornerRadius="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pendingDesContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@color/highlight"
+            android:padding="16dp">
+
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/groupApprovalPending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:constraint_referenced_ids="pendingNotice, pendingNotice2, companyInfoTopic, pendingEntMail, pendingEntPhone, btnCallEnterprise" />
+
+            <TextView
+                android:id="@+id/pendingTopic"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/cutstom_textview_rounded_corners"
+                android:backgroundTint="@color/highlight"
+                android:gravity="center_vertical"
+                android:text="Approval Pending"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/texts"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/pendingNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Loading..."
+                android:textAlignment="center"
+                android:textColor="@color/graphite_grey"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendingTopic" />
+
+            <TextView
+                android:id="@+id/pendingNotice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Meanwhile if you need any support Please contact our Technical Support Team. You can contact us by simply hitting 'Customer Support' button.\n\nThank You For Your Patience!"
+                android:textAlignment="center"
+                android:textColor="@color/graphite_grey"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendingNotice" />
+
+            <TextView
+                android:id="@+id/companyInfoTopic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Your Company information: "
+                android:textColor="@color/graphite_grey"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendingNotice2" />
+
+            <TextView
+                android:id="@+id/pendingEntMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Loading..."
+                android:textColor="@color/graphite_grey"
+                android:textSize="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/companyInfoTopic" />
+
+
+            <TextView
+                android:id="@+id/pendingEntPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading..."
+                android:textColor="@color/graphite_grey"
+                android:textSize="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendingEntMail" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCallEnterprise"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_desgin"
+                android:backgroundTint="@color/buttons"
+                android:text="Call Enterprise"
+                android:textAllCaps="false"
+                android:textColor="@color/white_lace"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pendingEntPhone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:visibility="gone"
+                android:id="@+id/btnExtraSupport"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_desgin"
+                android:backgroundTint="@color/buttons"
+                android:text="Customer Support"
+                android:textAllCaps="false"
+                android:textColor="@color/white_lace"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogOut" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogOut"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_desgin"
+                android:backgroundTint="@color/buttons"
+                android:text="Log out"
+                android:layout_marginTop="30dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white_lace"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="@+id/btnCallEnterprise"
+                app:layout_constraintTop_toBottomOf="@+id/btnCallEnterprise" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

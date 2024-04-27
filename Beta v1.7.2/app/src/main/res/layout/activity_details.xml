@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#042272"
+    tools:context=".DetailsActivity">
+
+    <TextView
+
+        android:id="@+id/tvMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvMainTitleNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMainTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Please fill the details below here"
+        android:textColor="#8E8989"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDriverNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/ivDriverNameIcon"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Driver Name"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/tvMainTitleNote"/>
+
+    <ImageView
+        android:id="@+id/ivDriverNameIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="120dp"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/tvMainTitleNote"/>
+
+    <TextView
+        android:id="@+id/tvPhoneNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvDriverNameLabel"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Phone number"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ivDriverPhoneIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/tvDriverNameLabel"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/ic_baseline_phone_android_24" />
+
+    <TextView
+        android:id="@+id/edit_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="+94765436542"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvPhoneNumberLabel"/>
+
+    <TextView
+        android:id="@+id/tvVehicleNoLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Vehicle Number"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lblVehicleTypeSubCategory"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"/>
+
+    <TextView
+        android:id="@+id/lblVehicleType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Select your vehicle type"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tvPhoneNumberLabel"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"/>
+
+    <Spinner
+        android:id="@+id/dropdown_menu_v_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lblVehicleType"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"
+        />
+
+    <TextView
+        android:id="@+id/lblVehicleTypeSubCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Select Model"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lblVehicleType"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"/>
+
+    <Spinner
+        android:id="@+id/dropdown_menu_v_sub_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/lblVehicleTypeSubCategory"
+        android:layout_toRightOf="@+id/ivDriverPhoneIcon"
+        />
+
+    <ImageView
+        android:id="@+id/ivVechileNoIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/lblVehicleTypeSubCategory"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/ic_baseline_directions_car_24" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/tvDriverNameLabel"
+        android:layout_marginLeft="170dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/edit_vehicle"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:inputType="textPersonName"
+        android:hint="AAA"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvVehicleNoLable"
+        android:layout_marginLeft="170dp"/>
+
+    <EditText
+        android:id="@+id/edit_vehicle_Numbers"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:inputType="number"
+        android:hint="1234"
+        android:digits="0123456789"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvVehicleNoLable"
+        android:layout_toRightOf="@+id/edit_vehicle"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSignInNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Need to change phone number?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edit_vehicle_Numbers"/>
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:linksClickable="true"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="#80EF85"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tvSignInNote"
+        android:layout_below="@+id/edit_vehicle_Numbers"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_desgin"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvSignInNote"
+        android:layout_centerHorizontal="true"/>
+
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>

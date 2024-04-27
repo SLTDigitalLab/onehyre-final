@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittxtInsertName"
+        android:hint="Enter client Name"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edittxtInsertPNumber"
+        android:hint="Enter client's Phone number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@+id/edittxtInsertName"/>
+
+    <EditText
+        android:id="@+id/edittxtInsertMail"
+        android:hint="Enter client's email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxtInsertPNumber"/>
+</RelativeLayout>

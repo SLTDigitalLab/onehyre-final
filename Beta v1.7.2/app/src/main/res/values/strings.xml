@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name" translatable="false">OneHyre Driver</string>
+    <string name="title_activity_registered_user_verifing" translatable="false">RegisteredUserVerifingActivity</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+    <string name="sys_offline" translatable="false">System Offline.</string>
+    <string-array name="vehicle_types">
+        <item>Tuks</item>
+        <item>Flex</item>
+        <item>Mini</item>
+        <item>Cars</item>
+        <item>Minivans</item>
+        <item>Vans</item>
+    </string-array>
+
+    <string-array name="tuks_types">
+        <item>Bajaj Three-Wheeler</item>
+        <item>TVS Three-Wheeler</item>
+    </string-array>
+
+    <string-array name="flex_types">
+        <item>Tata Nano</item>
+        <item>Suzuki Alto (Old Model)</item>
+    </string-array>
+
+    <string-array name="mini_types">
+        <item>Waggon R</item>
+        <item>Suzuki Flare Crossover</item>
+        <item>Suzuki Alto</item>
+        <item>Celerio</item>
+        <item>Dutson Ready-Go</item>
+        <item>Micro Panda</item>
+    </string-array>
+
+    <string-array name="cars_types">
+        <item>Prius</item>
+        <item>Axio</item>
+        <item>Grace</item>
+        <item>Honda Fit Shuttle</item>
+    </string-array>
+
+    <string-array name="minivans_types">
+        <item>Dual A/C Toyota</item>
+        <item>Honda</item>
+        <item>Suzuki</item>
+        <item>Mitsubishi</item>
+    </string-array>
+
+    <string-array name="vans_types">
+        <item>KDH</item>
+        <item>Commuter</item>
+        <item>HiAce</item>
+    </string-array>
+
+    <string name="ent_comp_signup" translatable="false"><u>here</u>.</string>
+    <string name="terms_and_conditions" translatable="false"><u>Terms and Conditions</u>.</string>
+
+
+    <!-- Amount Activity-->
+    <string name="day_time">Day Time (6AM to 9PM)</string>
+    <string name="night_time">Night Time (9PM to 6AM)</string>
+    <string name="starting_fee">Starting Fee: </string>
+    <string name="two_km">From 2km: </string>
+    <string name="waiting_fee">Waiting Fee (per 1min): </string>
+    <string name="update">UPDATE</string>
+    <string name="last_updated">Last updated on: </string>
+    <string name="your_vehicle_type">Your Vehicle Type: </string>
+
+
+    <!-- Welcome Activity-->
+    <string name="welcome_message">Welcome</string>
+    <string name="lets_get_started">Let\'s Get Started</string>
+    <string name="start_button_text">Start</string>
+
+
+    <!-- DriverMain Activity-->
+    <string name="total_fare">Total Fare(Rs)</string>
+    <string name="distance">Distance(KM)</string>
+    <string name="hire_time">Hire Time</string>
+    <string name="speed">Speed(Km/h)</string>
+    <string name="waiting_time">Waiting Time</string>
+
+
+    <!-- Subscription Activity-->
+    <string name="premium_features">Premium Features</string>
+    <string name="unlock_client_email">*     Unlocks Client e-mail.</string>
+    <string name="remove_ads">*     Remove ads</string>
+    <string name="cancel_anytime">*     Cancel anytime</string>
+    <string name="price_subscription">$0.99</string>
+    <string name="subscription_status">Status</string>
+    <string name="subscription_description">Your GooglePlay account will be charged at confirmation of purchase. Your subscription can be managed in Google Play Store\'s \'Payments and subscription\' tab and will auto-renew unless disabled 24 hours prior to the end of billing cycle.</string>
+    <string name="buy">BUY</string>
+
+
+    <!-- ActivatePremium Activity-->
+    <string name="premium_note">
+        Introducing My Taxi, the taxi metering mobile app that offers a Pro Plan for only $20 per month. With this plan,
+        you\'ll have access to advanced features like sending trip receipts to customers through email and SMS.
+        This allows for a seamless experience and easy record keeping.
+        Sign up for My Taxi\'s Pro Plan now to elevate your taxi business.
+    </string>
+    <string name="activate_premium">Activate Premium</string>
+
+    <!-- RegisterNewUser Activity-->
+    <!-- Top Title Card -->
+    <string name="register_title">Register</string>
+    <!-- Enterprise Info Card -->
+    <string name="enterprise_title">Enterprise</string>
+    <string name="enterprise_join_guide">Touch here to join your Enterprise</string>
+    <string name="enterprise_found_name">Your Enterprise Name</string>
+    <string name="enterprise_found_email">Your Enterprise Email: thisisasampleemail@abc.com</string>
+    <string name="enterprise_found_phone">Your Enterprise Telephone: 0472261455</string>
+    <string name="enterprise_continue">Continue</string>
+    <!-- Personal Info Card -->
+    <string name="driver_info_title">Driver Info.</string>
+    <string name="driver_name">Driver\'s name</string>
+    <string name="nic_number">Driver\'s NIC number</string>
+    <string name="driver_phone">Driver\'s telephone number</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="vehicle_registration">Vehicle registration number</string>
+    <string name="sign_up">Sign up</string>
+
+
+    <!-- SelectDriverType Activity-->
+    <string name="select_your_course">Select Your Package</string>
+    <string name="select_course_card_expand">Select Package</string>
+    <string name="individual">Individual</string>
+    <string name="more_information">More information</string>
+    <string name="less_information">Less information</string>
+    <string name="individual_description">Individuals are stand-alone employees who work independently
+        and are not associated with any particular
+        team, company, or enterprise. If you are a solo driver or worker,
+        select this option to proceed and sign up as an individual employee."</string>
+    <string name="enterprise">Enterprise</string>
+    <string name="enterprise_description">Enterprise is for employees registered under specific companies who work with teams,
+        companies, or enterprises. If you are associated with a company and part of their workforce,
+        select this option to proceed and sign up as an Enterprise employee."</string>
+
+
+    <!-- TripDetails Activity-->
+    <string name="loading_text">Loading..</string>
+    <!-- TripDetails Adaptor Class-->
+    <string name="customer_name">Customer Name:</string>
+    <string name="customer_email">Customer e-mail:</string>
+    <string name="customer_phone">Customer Telephone:</string>
+    <string name="fare">Fare:</string>
+    <string name="waiting_time_trip_details">Waiting time:</string>
+    <string name="hire_time_trip_details">Hire time:</string>
+    <string name="distance_trip_details">Distance:</string>
+    <string name="one_km_fee">One km Fee:</string>
+    <string name="two_km_fee">Two km Fee:</string>
+    <string name="waiting_fee_trip_details">Waiting fee:</string>
+    <string name="start_time">Start time:</string>
+    <string name="end_time">End time:</string>
+    <string name="vehicle_number">Vehicle Number:</string>
+    <string name="date">Date:</string>
+
+    <!-- Logout Activity -->
+    <string name="logout_prompt">Are you sure you want to log out?</string>
+    <string name="phone_number">Phone number</string>
+    <string name="cont_to_logout">Logout</string>
+    <string name="go_back">Back</string>
+
+    <!-- Terms and Conditions -->
+    <string name="terms_and_conditions_agreement">
+    <![CDATA["<h1>OneHyre Driver - Terms and Conditions</h1>\n"
+                "\n"
+                "<h2>1. Acceptance of Terms</h2>\n"
+                "<p>By accessing or using the OneHyre Driver app (&ldquo;App&rdquo;), you agree to be bound by these Terms and Conditions (&ldquo;Terms&rdquo;). If you do not agree with these Terms, please refrain from using the App.</p>\n"
+                "\n"
+                "<h2>2. App Usage and Features</h2>\n"
+                "<ul>\n"
+                "  <li>The App is designed to assist taxi drivers in tracking hire details, monitoring hires in progress, and providing location updates to customers.</li>\n"
+                "  <li>Location tracking is enabled only when the app is open. No location history is saved, except during active hires where the full path taken by the driver is recorded.</li>\n"
+                "  <li>Drivers can initiate hires by hitting the &ldquo;Start&rdquo; button, and all location changes during the hire will be stored in an array to record the full path taken.</li>\n"
+                "  <li>Account deletion may occur if drivers engage in illegal or unauthorized activities.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>3. Account Registration and Course Selection</h2>\n"
+                "<ul>\n"
+                "  <li>Drivers must register an account to use the App. During registration, they must choose between &ldquo;Individual&rdquo; or &ldquo;Enterprise&rdquo; courses, and this choice is final.</li>\n"
+                "  <li>Enterprise drivers need an enterprise code, provided by the enterprise, to register as an enterprise driver.</li>\n"
+                "  <li>Changing courses after registration is not allowed.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>4. Hire Charges</h2>\n"
+                "<ul>\n"
+                "  <li>Hire values, including distance-based charges and trip charges, are set by the App and cannot be altered by drivers.</li>\n"
+                "  <li>Vehicle type may affect trip charges.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>5. Premium Subscription and Cancellation</h2>\n"
+                "<ul>\n"
+                "  <li>Premium subscription offers enhanced features and can be canceled at any time.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>6. Data Sharing</h2>\n"
+                "<ul>\n"
+                "  <li>Drivers can share trip details with customers by entering their phone number or email.</li>\n"
+                "  <li>This service is available for premium members or enterprise members only.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>7. Third-Party Enterprise</h2>\n"
+                "<ul>\n"
+                "  <li>The App offers an enterprise feature allowing third-party companies to hire drivers through the system.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>8. Intellectual Property</h2>\n"
+                "<ul>\n"
+                "  <li>All intellectual property rights of the App and its content remain with OneHyre Driver.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>9. Limitation of Liability</h2>\n"
+                "<ul>\n"
+                "  <li>The App is provided &ldquo;as is&rdquo; and OneHyre Driver disclaims any warranties or liability for damages arising from its use.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>10. Termination</h2>\n"
+                "<ul>\n"
+                "  <li>OneHyre Driver reserves the right to terminate accounts for violation of these Terms.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>11. Amendments</h2>\n"
+                "<ul>\n"
+                "  <li>OneHyre Driver may update these Terms at any time, and continued use of the App constitutes acceptance of the updated Terms.</li>\n"
+                "</ul>\n"
+                "\n"
+                "<h2>12. Governing Law</h2>\n"
+                "<ul>\n"
+                "  <li>These Terms are governed by and construed in accordance with the laws of [Your Jurisdiction].</li>\n"
+                "</ul>"]]>
+    </string>
+
+    <!-- Main Activity -->
+    <string name="phone_number_for_verification_sign_up">Phone Number</string>
+    <string name="agree_to_terms_and_conditions_note">By signing up you agree to our</string>
+    <string name="resend_code_ign_up">Did\'t receive code? Resend</string>
+    <string name="verify_phone_sign_up">Verify</string>
+    <string name="enter_otp">Enter OTP</string>
+
+
+    <!-- RegisteredAccRestore Activity -->
+    <string name="account_found">Account Found!</string>
+    <string name="account_found_note">We found an account registered under the phone number you entered!</string>
+    <string name="display_driver_name">Name</string>
+    <string name="display_vehicle_number">Vehicle Number</string>
+    <string name="display_phone">Phone Number</string>
+    <string name="continue_to_signIn">Continue</string>
+
+
+    <!-- RegisteredAccVerifying Activity -->
+    <string name="title_des">Before Continue, \nVerify that it\'s you!</string>
+    <string name="enter_otp_to_sign_in">Enter OTP</string>
+    <string name="resend_otp_note">Didn\'t receive code?</string>
+    <string name="resend_otp_sign_in">Resend</string>
+    <string name="verify_phone_sign_in">Verify</string>
+
+
+    <!-- Message Boxes-->
+    <string name="call_warning_title">SLT MY TAXI Meter is about to make an outgoing voice call.</string>
+    <string name="call_warning_message">This may cause charges on your mobile account. Are you sure you want to call the Technical Support?</string>
+    <string name="trip_bill_already_saved">You have already saved this trip\'s details and cannot save again.</string>
+    <string name="trip_bill_not_saved">You haven\'t saved current trip\'s details. If you go back this trip\'s details will be permanently lost and we won\'t be able to help you to get them back. Are you sure?</string>
+    <!--Permission Errors-->
+
+    <string name="location_permission">This app needs Location permissions to run correctly. Please goto settings to allow this permission.</string>
+    <string name="call_permission">This app needs Call permission to perform this action.</string>
+    <string name="manuel_permission_title">Goto Settings</string>
+    <string name="dialog_box_negative_button">cancel</string>
+    <string name="dialog_box_positive_button">OK</string>
+
+
+    <!-- Settings Activity -->
+    <string name="app_settings_contact_us">Contact Us</string>
+    <string name="change_app_language">Change Language</string>
+    <string name="version_info">Version info.</string>
+    <string name="app_settings_logout">Logout</string>
+
+    <!-- Driver Profile -->
+    <string name="personal_info_driver_profile">Personal Info</string>
+    <string name="enterprise_info_driver_profile">Enterprise</string>
+    <string name="edit_info_driver_profile">Edit Info</string>
+
+    <!-- Driver Profile - personal info tab -->
+    <string name="mobile_text">Mobile</string>
+    <string name="nic_number_text">NIC Number</string>
+    <string name="vehicle_number_text">Vehicle Number</string>
+    <string name="vehicle_category_text">Vehicle Category</string>
+    <string name="vehicle_model_text">Vehicle Model</string>
+
+    <!-- Driver Profile - enterprise info tab -->
+    <string name="enterprise_name_text">Enterprise Name</string>
+    <string name="enterprise_code_text">Enterprise Code</string>
+    <string name="email_text">Email</string>
+    <string name="hotline_text">Hotline</string>
+
+    <!-- Logout Activity -->
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+
+    <!-- Buttons -->
+    <string name="button_text_update">Update</string>
+    <string name="button_text_continue">Continue</string>
+    <string name="button_text_cancel">Cancel</string>
+    <string name="button_text_delete">Delete</string>
+    <string name="button_text_log_out">Logout</string>
+    <string name="button_text_save">Save</string>
+    <string name="button_text_submit">Submit</string>
+    <string name="button_text_start">Start</string>
+    <string name="button_text_stop">Stop</string>
+    <string name="button_text_register">Register</string>
+    <string name="button_text_log_in">Log in</string>
+    <string name="button_text_sign_up">Sign up</string>
+    <string name="button_text_verify">Verify</string>
+    <string name="button_text_confirm">Confirm</string>
+    <string name="button_text_back">Back</string>
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.techtop.onehyreapp">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+    <uses-permission android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CustomAppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+        <activity
+            android:name="com.techtop.onehyreapp.SettingsTermsAndConditions"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.SettingsEditDriverProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.SettingsAppVersionAndInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.SettingsChangeAppLanguage"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.ApprovalPendingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.RegisterNewUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.DriverTypeSelection"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.LanguageSelect"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.Subscription"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.ActivatePremiumActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.techtop.onehyreapp.SystemErrorActivity"
+            android:exported="false" />
+
+        <service
+            android:name="com.techtop.onehyreapp.StatusCheckService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.techtop.onehyreapp.SystemOfflineActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.ActivityWelcomeBack"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.RegisteredUserVerifyingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.RegisteredAccRestore"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.LogOutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.WelcomexActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.DriverMainActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.techtop.onehyreapp.UpdateDriverProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.DriverProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.TripDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.BillActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.AmountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.techtop.onehyreapp.MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name="com.techtop.onehyreapp.LocationForegroundService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

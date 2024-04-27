@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!-- App Themes -->
+    <color name="app_main_theme_blue">#042272</color>
+    <color name="background">#26bbe5</color>
+    <color name="background2">#343434</color>
+    <color name="highlight">#a5c846</color>
+    <color name="buttons">#2d378c</color>
+    <color name="texts">#4e4b51</color>
+
+
+    <!-- Custom Colors -->
+    <color name="black_steel">#0D1115</color>
+    <color name="matte_charcoal">#3B4248</color>
+    <color name="blackened_black">#4E4B51</color>
+    <color name="silver"> #d3d3d3</color>
+    <color name="burnished_silver"> #bcc7d0</color>
+    <color name="blue_silver"> #b7bfca</color>
+    <color name="metallic_silver"> #999da0</color>
+    <color name="graphite_grey"> #53565B</color>
+    <color name="pale_grey">#C0C0C0</color>
+    <color name="bright_white">#F4F5F1</color>
+    <color name="snow_white">#F2F0EB</color>
+    <color name="white_alyssum">#F8FCF5</color>
+    <color name="premium_white">#F5F4EB</color>
+    <color name="rosemary_white">#DFE6DA</color>
+    <color name="old_white">#F2E6DF</color>
+    <color name="intense_white">#F8F9FA</color>
+    <color name="cold_white">#E3E4ED</color>
+    <color name="flake_white">#E4E8DC</color>
+    <color name="carrara_white">#F3F4EF</color>
+    <color name="alpine_white">#EBF0F9</color>
+    <color name="shoji_white">#E0DACF</color>
+    <color name="cotton_white">#E4E3D8</color>
+    <color name="polar_white">#F0F8FB</color>
+    <color name="water_lily_white">#E6D6C4</color>
+    <color name="powder_viola_white">#D9D3E5</color>
+    <color name="aragonite_white">#BCC9C3</color>
+    <color name="flower_white">#F8F3EF</color>
+    <color name="translucent_white">#E4E3E9</color>
+    <color name="apple_white">#E5DED4</color>
+    <color name="white_yellow">#F6F3E8</color>
+    <color name="raffia_white">#EEEEE3</color>
+    <color name="champagne_white">#F4EFE5</color>
+    <color name="white_lace">#F0E9D1</color>
+    <color name="winter_white">#E2E3E0</color>
+    <color name="poseidon_pantone">#133955</color>
+    <color name="midnight_blue"> #191970</color>
+    <color name="gasoline_blue"> #1b6770</color>
+    <color name="ultramarine">#2142AB</color>
+    <color name="french_ultramarine">#2522CA</color>
+    <color name="navy_blue">#000080</color>
+    <color name="india_blue">#312C6A</color>
+    <color name="harn_purple">#5218FA</color>
+    <color name="Teal">#008080</color>
+    <color name="aesthetic_teal">#0D9494</color>
+    <color name="glossy_teal">#008F91</color>
+    <color name="fluorescent_teal">#00B0BC</color>
+    <color name="neon_teal">#00CAB1</color>
+    <color name="soft_teal">#44A9AA</color>
+    <color name="pale_teal">#7BC2BC</color>
+    <color name="vintage_teal">#3B7577</color>
+    <color name="spring_teal">#0EA7A5</color>
+    <color name="pastel_teal">#63B7B7</color>
+    <color name="teal_blue">#367588</color>
+    <color name="matte_teal">#3A7575</color>
+    <color name="salmon_pink">#ff91a4</color>
+    <color name="bright_pink">#FF007F</color>
+    <color name="barbie_pink">#DA1884</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="pink_lace">#FFDDF4</color>
+    <color name="tulip_pink">#FF878D</color>
+    <color name="queen_pink">#E8CCD7</color>
+    <color name="mexican_pink">#E4007C</color>
+    <color name="persian_pink">#F77FBE</color>
+    <color name="light_hot_pink">#FFB3DE</color>
+    <color name="wild_watermelon">#FC6C85</color>
+    <color name="thulian_pink">#DE6FA1</color>
+    <color name="rhodamine_red_pink">#E44C9A</color>
+    <color name="dark_tulip_red_pink">#D24B66</color>
+    <color name="temptation_red_pink"> #B82650</color>
+    <color name="rouge_red">#E24666</color>
+    <color name="rosso_corsa_red">#d40000</color>
+    <color name="ferrari_red">#ff2800</color>
+    <color name="easter_red">#C92519</color>
+    <color name="spring_red">#BE1F35</color>
+    <color name="arabian_red">#A30B2E</color>
+    <color name="fashion_red">#D4181D</color>
+    <color name="rio_red">#8A2232</color>
+    <color name="cardinal_red">#C41E3A</color>
+    <color name="lust_red">#E62020</color>
+    <color name="royal_maroon">#670E10</color>
+    <color name="vermillion_red">#E34234</color>
+    <color name="indian_orange">#FF7722</color>
+    <color name="lucky_orange">#FF7722</color>
+    <color name="orange_peel">#FA7A35</color>
+    <color name="pumpkin_orange">#FF7518</color>
+    <color name="tangerine_orange">#FA9336</color>
+    <color name="indian_saffron_orange">#FF7722</color>
+    <color name="vivid_tangerine_orange">#FF801A</color>
+    <color name="deep_saffron_orange">#FF9933</color>
+    <color name="carrot_orange">#ED9121</color>
+    <color name="atomic_tangerine_orange">#FF9966</color>
+    <color name="saffron_orange_yellow">#F4C430</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="racing_yellow"> #f5d365</color>
+
+    <color name="onlineBtnColor">#08E61E</color>
+    <!-- Progress Bar Old
+    <color name="progress_bar_start">#11b6d1</color>
+    <color name="progress_bar_start2">#004eaa</color>
+    <color name="progress_bar_mid">#f12fd3</color>
+    <color name="progress_bar_end">#b189db</color>
+    -->
+</resources>

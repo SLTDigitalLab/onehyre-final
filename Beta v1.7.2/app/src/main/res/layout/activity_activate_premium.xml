@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ActivatePremiumActivity">
+
+    <ImageView
+        android:id="@+id/ivUpgradeToPremium"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_purchase_premium"/>
+
+    <TextView
+        android:id="@+id/tvBuyPremiumNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pale_grey"
+        android:textAlignment="center"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:text="@string/premium_note"
+        android:layout_below="@+id/ivUpgradeToPremium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button_desgin"
+        android:id="@+id/btnUpgradeToPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttons"
+        android:textColor="@color/white_lace"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvBuyPremiumNote"
+        android:text="@string/activate_premium"/>
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\Stephan\\Desktop\\keystore\\onehyre.keystore')
+            storePassword 'digitallab123'
+            keyAlias 'onehyrekey'
+            keyPassword 'digitallab123'
+        }
+    }
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.techtop.onehyreapp"
+        minSdk 21
+        targetSdk 33
+        versionCode 20
+        multiDexEnabled true
+        versionName "beta v1.7.3"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_9
+        targetCompatibility JavaVersion.VERSION_1_9
+    }
+    //enable view binding
+    buildFeatures{
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    //new dep
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
+//new
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+    //map utils
+    implementation 'com.google.maps.android:android-maps-utils:2.3.0'
+
+    //firebase dep
+    implementation platform('com.google.firebase:firebase-bom:29.1.0')
+    implementation 'com.google.firebase:firebase-database'
+
+    //trip history dependancies
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation files('libs\\activation.jar')
+    implementation files('libs\\additionnal.jar')
+    implementation files('libs\\mail.jar')
+    implementation 'androidx.annotation:annotation:1.3.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //google play billing dependency
+    def billing_version = "5.1.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+
+    //ads
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+    //slide-up panel
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //qr generator
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    // For compatibility with ObjectAnimator
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'androidx.transition:transition:1.4.1'
+
+    //Textview animations
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
+
+
+
+}
